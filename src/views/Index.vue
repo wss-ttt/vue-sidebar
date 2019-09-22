@@ -8,6 +8,7 @@
           active-text-color="#409EFF"
           default-active="photo"
           :collapse="isCollapse"
+          :collapse-transition="false"
         >
           <el-menu-item index="home">
             <i class="el-icon-document"></i>
