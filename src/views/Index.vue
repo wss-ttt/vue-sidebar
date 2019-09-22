@@ -78,11 +78,12 @@ export default {
     .el-scrollbar {
       height: 100%;
     }
-
     // 滚动条样式的设置--结束
     .el-menu {
       border: none;
       height: 100%;
+      /*原始的el-menu中的样式是width:64px*/
+      /*现在我们是把width:64px添加了外城.sidebar的身上了*/
       width: 100% !important;
     }
   }
@@ -93,6 +94,7 @@ export default {
     margin-left: 210px;
   }
   &.hideSidebar {
+    /*折叠的时候的width*/
     .sidebar {
       width: 64px;
     }
